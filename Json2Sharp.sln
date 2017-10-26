@@ -13,6 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Doc", "_Doc", "{28D219AF-8
 		LICENSE = LICENSE
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{00345824-B26B-4E26-B1CC-25A94ED60A63}"
+	ProjectSection(SolutionItems) = preProject
+		Json2Csharp-bin\JsonCSharpClassGenerator.exe = Json2Csharp-bin\JsonCSharpClassGenerator.exe
+		Json2Csharp-bin\JsonCSharpClassGenerator.exe.config = Json2Csharp-bin\JsonCSharpClassGenerator.exe.config
+		Json2Csharp-bin\Newtonsoft.Json.dll = Json2Csharp-bin\Newtonsoft.Json.dll
+		Json2Csharp-bin\System.Data.Entity.Design.PluralizationServices.dll = Json2Csharp-bin\System.Data.Entity.Design.PluralizationServices.dll
+		Json2Csharp-bin\Xamasoft.BetterLinkLabel.dll = Json2Csharp-bin\Xamasoft.BetterLinkLabel.dll
+		Json2Csharp-bin\Xamasoft.JsonClassGenerator.dll = Json2Csharp-bin\Xamasoft.JsonClassGenerator.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +58,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00345824-B26B-4E26-B1CC-25A94ED60A63} = {28D219AF-87B4-4DD9-8A25-8519322A1FDA}
 	EndGlobalSection
 EndGlobal
